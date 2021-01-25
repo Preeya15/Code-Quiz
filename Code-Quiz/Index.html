@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./Assets/style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>CODING QUIZ CHALLENGE</title>
+  </head>
+  <body>
+    <nav class="navbar fixed-top navbar-light" style="background-color: grey;">
+        <div id="highscore">
+        <a class="navbar-brand" href="score.html">View Highscores</a></div>
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><span id="timer">
+              <a class="nav-link time" style="color: black; font-size: large;">Time</a>
+            </li></span>
+            <li class="nav-item"><span id="quizTimer"></span></li>
+              <li class="nav-item"><span id="QuesTimer"></span></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <div id="quiz"></div>
+        <h1 style="color: black;">Coding Quiz Challenge</h1>
+            <br>
+            <p>Try to answer the following code-related questions within the time limit.  Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <br>
+            <div class="start_btn"><button>Start Quiz</button>
+            </div>
+    <div class="quiz box"></div>
+        
+        
+        <script src="/Assets/script.js"></script>
+      </body>
+    </html>
+  </body>
+</html>

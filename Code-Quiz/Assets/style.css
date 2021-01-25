@@ -1,0 +1,46 @@
+.container{
+    margin: auto;
+    padding: auto;
+    width: auto;
+    height: 210px;
+    text-align: center;
+    background-color: lightblue;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 14px;
+  margin: 50px;
+  padding: 80px;
+}
+
+.start_btn button{
+  background-color: blue;
+  border: none;
+  color: white;
+  outline: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    /* responsive screen settting for max width of 800, lower than 800 will have background color as lightpink*/
+    .container{
+      background-color: lightgreen;
+      width: auto;
+}}
