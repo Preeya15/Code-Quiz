@@ -8,12 +8,22 @@
     <title>High Scores</title>
   </head>
   <body>
-    <div class="container">
-    <div id="score"></div>
-        <h1 style="color: black;">High Scores</h1>
-        <a class="btn btn-primary" href="Index.html" role="button">Go Back</a>
-        <button class="btn btn-primary" type="Clear HighScore">Clear HighScore</button>
+    <div class="container d-flex justify-content-center mt-5">
+        <div class="game-box col-lg-8 p-4">
+
+            <div class="row">
+                <div class="col-4"></div>
+                <div id="highScoresDiv" class="col-12">
+                    <h1 id="scoresArea">High Scores</h1>
+                    <div id="highScoresList"></div>
+
+                    <button class="btn btn-primary" id="backButton">Go Back</button>
+                    <button class="btn btn-primary" id="clearScore">Clear HighScore</button>
+                </div>
+                <div class="col-4"></div>
+            </div>
         </div>
-    <script src="./Assets/script.js"></script>
-  </body>
+    </div>
+</body>
+<script src="./Assets/score.js"></script>
 </html>

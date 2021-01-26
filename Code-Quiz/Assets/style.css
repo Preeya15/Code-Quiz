@@ -1,10 +1,9 @@
 .container{
     margin: auto;
-    padding: auto;
+    padding: 1%;
     width: auto;
-    height: 210px;
+    height: fit-content;
     text-align: center;
-    background-color: lightblue;
 }
 
 body {
@@ -14,7 +13,7 @@ body {
   padding: 80px;
 }
 
-.start_btn button{
+#btn.start{
   background-color: blue;
   border: none;
   color: white;
@@ -28,19 +27,26 @@ body {
   cursor: pointer;
 
 }
-
-.wrapper {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: auto;
-    padding-right: 20px;
-    padding-left: 20px;
-    text-align: center;
+.code-title {
+  text-align: center;
+  font-weight: bold;
+  display: block;
 }
 
-@media screen and (max-width: 800px) {
-    /* responsive screen settting for max width of 800, lower than 800 will have background color as lightpink*/
+.game-box{
+  background: lightblue;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0.,0,0,0.23);
+}
+.answer-item{
+  background: rgb(223, 201, 7);
+  width: 90%;
+  display: inline-block;
+  border-radius:8px;
+  padding: 3px;
+}
+
+@media screen and (min-width: 1000px) {
     .container{
-      background-color: lightgreen;
+      background-color: lightcoral;
       width: auto;
 }}
